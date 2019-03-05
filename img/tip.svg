@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="25px" viewBox="0 0 20 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.22044626,0 C0.99801803,0 0.0115082156,1.02074179 0.0115082156,2.27100335 L0.0115082156,2.27100335 L0,16.9674618 C0,17.7495292 0.388082603,18.4446275 0.976919634,18.8533166 L0.976919634,18.8533166 L10,25 L19.0109328,18.8533166 C19.6004092,18.4446275 19.9884918,17.7495292 19.9884918,16.9674618 L19.9884918,16.9674618 L20,2.27100335 C20,1.02074179 18.9994246,0 17.7769964,0 L17.7769964,0 L2.22044626,0 Z M16.2106003,5.20375602 L17.7769964,6.81758736 L7.77699636,17.0452762 L2.22044626,11.3622097 L3.78684227,9.76211027 L7.77699636,13.8293838 L16.2106003,5.20375602 Z" id="path-1"></path>
+        <linearGradient x1="50.7447757%" y1="146.248959%" x2="49.5593461%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#2D8B11" offset="0%"></stop>
+            <stop stop-color="#03D22F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="BME-TOOL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SB-1" transform="translate(-538.000000, -618.000000)">
+            <g id="Group-3" transform="translate(538.000000, 618.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="-201 2172 670 2172 670 -7106 -201 -7106"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

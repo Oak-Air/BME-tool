@@ -1,0 +1,223 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif !important; }
+
+#test-screen {
+  height: 100vh; }
+
+::-webkit-input-placeholder {
+  font-size: 12px; }
+
+:-ms-input-placeholder {
+  font-size: 12px; }
+
+::-ms-input-placeholder {
+  font-size: 12px; }
+
+::placeholder {
+  font-size: 12px; }
+
+.pusher {
+  margin-left: 40vw; }
+
+.form-content {
+  -webkit-box-shadow: 0 2px 13px 6px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 2px 13px 6px rgba(0, 0, 0, 0.07); }
+
+.col-md-6.form-content {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.test-title.starting-business {
+  background: url(img/starting-a-business.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed; }
+  .test-title.starting-business p {
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    width: 5em;
+    text-align: center; }
+
+.question-screen {
+  height: 100vh;
+  position: relative; }
+
+.tip-box {
+  bottom: 30px;
+  position: absolute;
+  background: white;
+  padding: 0px 35px  65px 35px; }
+  .tip-box h4 {
+    font-size: 20px;
+    color: #2d8b11; }
+    .tip-box h4:before {
+      content: url("img/tip.svg");
+      margin-right: 5px;
+      vertical-align: top; }
+  .tip-box p {
+    font-size: 13px; }
+  .tip-box .progress-measure {
+    width: 100%;
+    height: 3px;
+    background: #d8d8d8;
+    margin-bottom: 15px;
+    position: relative; }
+    .tip-box .progress-measure:after {
+      display: block;
+      content: " ";
+      background: #2d8b11;
+      width: 20%;
+      height: 3px;
+      top: 0;
+      left: 0; }
+  .tip-box .progress-measure.forty-percent:after {
+    width: 40%; }
+  .tip-box .progress-measure.sixty-percent:after {
+    width: 60%; }
+  .tip-box .progress-measure.eighty-percent:after {
+    width: 80%; }
+  .tip-box .progress-measure.hundred-percent:after {
+    width: 100%; }
+
+.question-holder {
+  padding: 0px 65px; }
+  .question-holder h4 {
+    text-align: center;
+    font-size: 15px;
+    color: #9e9e9e;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 2px solid #2d8b11;
+    width: 100px; }
+    .question-holder h4 span {
+      color: #2d8b11;
+      font-size: 29px; }
+  .question-holder p.question {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 29px;
+    color: #2d8b11;
+    font-weight: 300;
+    line-height: normal; }
+  .question-holder p.microcopy {
+    text-align: center;
+    color: #9e9e9e;
+    font-size: 12px;
+    width: 100%; }
+  .question-holder .forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .question-holder .forms input, .question-holder .forms label {
+      width: 45%;
+      margin: 5px;
+      padding: 15px 15px;
+      font-size: 12px;
+      color: black;
+      border-radius: 5px;
+      border: solid 1px rgba(151, 151, 151, 0.2); }
+      .question-holder .forms input:focus, .question-holder .forms label:focus {
+        border: 1px solid #2d8b11; }
+    .question-holder .forms input[type="file"] {
+      width: 100%;
+      height: 0.1px;
+      opacity: 0; }
+      .question-holder .forms input[type="file"] + label {
+        color: rgba(151, 151, 151, 0.2); }
+    .question-holder .forms .id-number {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      opacity: 0;
+      font-size: 30px; }
+    .question-holder .forms button {
+      background: white;
+      color: #2d8b11;
+      font-size: 17px;
+      border: 1px solid #2d8b11;
+      padding: 10px 15px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      margin-top: 20px; }
+      .question-holder .forms button:focus ~ .id-number {
+        opacity: 1 !important; }
+  .question-holder a.next-button {
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px;
+    background: white;
+    max-width: 190px;
+    text-align: center;
+    color: black;
+    border-radius: 4px;
+    margin-top: 10px;
+    -webkit-box-shadow: -2px 5px 11px 4px rgba(0, 0, 0, 0.13);
+    box-shadow: -2px 5px 11px 4px rgba(0, 0, 0, 0.13); }
+  .question-holder .tip-image {
+    width: 80px;
+    margin: 0 auto; }
+    .question-holder .tip-image img {
+      width: 100%; }
+  .question-holder .see-other-stages {
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+    margin-top: 100px; }
+    .question-holder .see-other-stages h3 {
+      font-size: 20px;
+      color: #2d8b11;
+      margin-top: 50px; }
+    .question-holder .see-other-stages .other-stages {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30px; }
+      .question-holder .see-other-stages .other-stages .other-stage {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 20px 50px;
+        border-radius: 4px;
+        -webkit-box-shadow: -2px 5px 11px 4px rgba(0, 0, 0, 0.13);
+        box-shadow: -2px 5px 11px 4px rgba(0, 0, 0, 0.13); }
+        .question-holder .see-other-stages .other-stages .other-stage img {
+          width: 30px;
+          margin-bottom: 10px;
+          margin-top: 15px; }
+        .question-holder .see-other-stages .other-stages .other-stage p {
+          color: #323232;
+          font-size: 16px;
+          max-width: 5em;
+          text-align: center; }
