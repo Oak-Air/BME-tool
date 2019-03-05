@@ -178,7 +178,8 @@ body {
     box-shadow: -2px 5px 11px 4px rgba(0, 0, 0, 0.13); }
   .question-holder .tip-image {
     width: 80px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-top: 50px; }
     .question-holder .tip-image img {
       width: 100%; }
   .question-holder .see-other-stages {
